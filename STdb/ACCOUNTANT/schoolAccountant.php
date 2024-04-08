@@ -17,6 +17,7 @@ strip_php_extension();*/
         <script src = "../FUNCTIONS/teachersJsFunctions.js"></script>
     </head>
     <body>
+        <!-- header comm -->
         <?php require("../HEADER/accountantHeader.php"); ?>
     <div class="bodyContainer">
         <section class="accountForm">
