@@ -1,0 +1,100 @@
+body{
+    width: 100%;
+    position: fixed;
+    color: #000000;
+    background-image: url("schoolbackground.jpg");
+    background-size: cover;
+    align-items: center;
+}
+#teachers {
+    font-weight: bold;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+
+}
+#library {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    
+}
+#students {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    
+}
+#heading{
+  width: 100%;
+  background-color: brown;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 5px 5px 5px 5px;
+  /*display: flex;*/
+  align-items: center;
+
+}
+#home {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+}
+.dark-mode {
+        background-color: black;
+        color: white;
+}
+.tab {
+    padding: 20px 10px 10px 10px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  background-color: #6f7a73;
+  float: left;
+  width: 400px;
+  height: 600px;
+  margin-right: 5%;
+  /*display: flex;*/
+  align-items: center;
+}
+
+
+
+/*style the search field*/
+input[type=text]{
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid grey;
+    float: right;
+    width: 20%;
+    background: #f1f1f1;
+    margin-top: 10px;
+}
+.searchButton{
+    float: right;
+    width: 15%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 20px;
+    border: 2px solid grey;
+    cursor: pointer;
+    margin-top: 10px;
+}
+/*end of search field style*/
+  .myTab1{
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+    background-color: #a52a2a;
+    border: 2px solid #f505c5;
+  /*display: flex;*/
+  align-items: center;
+}
+

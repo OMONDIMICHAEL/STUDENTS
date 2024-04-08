@@ -1,0 +1,61 @@
+#frm{
+    margin-left: 20%;
+    margin-top: 10%;
+    border-style: inset;
+    border-color: #050505;
+    border-width: 5px;
+    background-color: #c2bcb4;
+    width: 600px;
+}
+#tbl{
+    border: 40px;
+    border-color: aqua;
+    background-color: darkolivegreen;
+    padding: 20px 20px 20px 20px;
+    margin: 10% 10% 10% 10%;
+}
+#txt{
+    font-weight: bold;
+    font-size: 24px;
+    
+}
+#txtt{
+    font-size: 24px;
+    
+}
+
+#user{
+    border-width: 4px;
+    border-style: inset;
+    border-color: #0ad9f5;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 150px;
+}
+#pass{
+    border-radius: 20px;
+    border-width: 4px;
+    border-style: inset;
+    border-color: #0ad9f5;
+    height: 30px;
+    border-radius: 20px;
+    padding: 5px 5px 5px 5px;
+    width: 150px;
+}
+#body{
+    background-color: #f29891;
+    align-items: center;
+}
+#submit{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: indianred;
+    padding: 10px 10px 10px 10px;
+}
+button{
+    font-size: 22px;
+    font-weight: bold;
+    background-color: wheat;
+    padding: 10px 10px 10px 10px;
+}

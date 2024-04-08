@@ -1,0 +1,460 @@
+/* header article */
+
+#headerArt{
+  align-items: center;
+  /* position: sticky; */
+  width: 100%;
+  /* top: 0; */
+  font-weight: bold;
+  padding: 5px;
+}
+
+#adminHeaderArt{
+  display: none;
+}
+
+/* header section */
+
+#headerSec{
+	display: flex;
+	align-items: center;
+}
+
+
+/* header buttons */
+
+#headerbtn1{
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#headerbtn2{
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#headerbtn3{
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+#sotheaderbtn{
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#sobheaderbtn{
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sot course section */
+
+#sotCourses{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+/* sob course section */
+
+#sobCourses{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+/* sot course buttons */
+
+#sotCoursebtn1{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#sotCoursebtn2{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sob course buttons */
+
+#sobCoursebtn1{
+	padding: 5px;
+	cursor: pointer;
+	background-color: inherit;
+	border-style: none;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#sobCoursebtn2{
+	padding: 5px;
+	cursor: pointer;
+	background-color: inherit;
+	border-style: none;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* section for dit stages */
+
+#ditStages{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+/* section for cit stages */
+
+#citStages{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+/* dit stage buttons */
+
+#ditStage1btn1{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#ditStage2btn2{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#ditStage3btn3{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* cit stage buttons */
+
+#citStage1btn1{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#citStage2btn2{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+#citStage3btn3{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* dit timetables */
+
+#ditStage1table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+/*	overflow-x: scroll;*/
+}
+#ditStage2table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+/*	overflow-x: scroll;*/
+}
+#ditStage3table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+/*	overflow-x: scroll;*/
+}
+
+/* th font color */
+
+th{
+	color: green;
+	background-color: grey;
+}
+
+/* cit timetables */
+
+#citStage1table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+/*	overflow-x: scroll;*/
+}
+#citStage2table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+/*	overflow-x: scroll;*/
+}
+#citStage3table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+/*	overflow-x: scroll;*/
+}
+
+/* school of biznes styling start here */
+
+/* section for sob management levels */
+
+#sobManagementLevels{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+/* sob level buttons */
+
+#sobManagement1btn1{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sob level buttons */
+
+#sobManagement2btn2{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sob level buttons */
+
+#sobManagement3btn3{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sob management timetables */
+
+#sobManagement1table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+#sobManagement2table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+#sobManagement3table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+
+
+/* hide the section for sob ATD levels */
+
+#sobATDLevels{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+/* sob ATD level buttons */
+
+#sobATD1btn1{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sob ATD level buttons */
+
+#sobATD2btn2{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sob ATD level buttons */
+
+#sobATD3btn3{
+	background-color: inherit;
+	border-style: none;
+	cursor: pointer;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* sob ATD timetables */
+
+#sobATD1table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+#sobATD2table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+#sobATD3table{
+	display: none;
+	background-color: white;
+	width: fit-content;
+}
+
+
+
+#btnPrint{
+	cursor: pointer;
+	background-color: dodgerblue;
+	color: ghostwhite;
+	border-radius: 20px;
+	padding: 5px;
+	font-weight: bolder;
+	font-size: 18px;
+}
+
+/* admin styling starts below */
+
+/* search button styling */
+.buttons{
+    padding: 5px;
+    color: white;
+    background-color: brown;
+    border-style: none;
+    font-weight: bolder;
+    cursor: pointer;
+	font-weight: bolder;
+	font-size: 18px;
+}
+/* hide the article to load users */
+#loadUsers{
+	display: none;
+	background-color: white;
+}
+/* hide the article to register users */
+#regUser{
+	display: none;
+	background-color: white;
+}
+#addDIT1table{
+	display: none;
+	background-color: white;
+}
+#addDIT2table{
+	display: none;
+	background-color: white;
+}
+#addCIT1table{
+	display: none;
+	background-color: white;
+}
+#addCIT2table{
+	display: none;
+	background-color: white;
+}
+#addMANAGEMENT1table{
+	display: none;
+	background-color: white;
+}
+#addMANAGEMENT2table{
+	display: none;
+	background-color: white;
+}
+#addATD1table{
+	display: none;
+	background-color: white;
+}
+#addATD2table{
+	display: none;
+	background-color: white;
+}
+#editDIT1table{
+	display: none;
+	background-color: white;
+}
+#editDIT2table{
+	display: none;
+	background-color: white;
+}
+#editCIT1table{
+	display: none;
+	background-color: white;
+}
+#editCIT2table{
+	display: none;
+	background-color: white;
+}
+#editATD1table{
+	display: none;
+	background-color: white;
+}
+#editATD2table{
+	display: none;
+	background-color: white;
+}
+#editMANAGEMENT1table{
+	display: none;
+	background-color: white;
+}
+#editMANAGEMENT2table{
+	display: none;
+	background-color: white;
+}

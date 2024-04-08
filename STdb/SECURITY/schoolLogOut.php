@@ -1,0 +1,11 @@
+<?php
+/*<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>
+<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>*/
+session_start();
+if(isset($_SESSION['$id']))
+{
+    unset($_SESSION['$id']);
+}
+header("Location:schoolLogIn.php");
+die;
+?>

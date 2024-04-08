@@ -1,0 +1,52 @@
+/*<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>
+<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>*/
+form{
+    background-position: center;
+    background-color: #c2bcb4;
+    padding: 5px;
+    font-size: 28px;
+    font-weight: bold;
+}
+input{
+    border-radius: 3px;
+    padding: 3px;
+    font-weight: inherit;
+    font-size: inherit;
+}
+body{
+    margin: 0;
+    padding: 7px;
+    background-color: #c4a3a1;
+  align-items: center;
+}
+ #submit{
+    border-radius: 5px;
+    font-size: inherit;
+    font-weight: inherit;
+    background-color: rgb(19, 22, 226);
+    color: white;
+    width: 200px;
+    margin-left: 30px;
+    padding: 5px 10px 5px 10px;
+    cursor: pointer;
+}
+button{
+    font-weight: bold;
+    font-size: 24px;
+    float: right;
+    width: 300px;
+    cursor: pointer;
+    margin-top: 5px;
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+}
+a{
+    color: blue;
+    text-decoration-line: none;
+} 
+h1{
+    font-size: 30px;
+    font-weight: bold;
+    background-position: center;
+}

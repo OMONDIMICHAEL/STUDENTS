@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC"-//W3C//DTD XHTML 1.0 Transitions" "http://www.w3.org/TR/xhtml1/DTD/xhtml-transitional.dtd">
+	<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+            E-library Homepage
+        </title>
+        <link rel="stylesheet" href="elibrary.css">
+    </head>
+    <body>
+        <h1 id="heading"><center>
+            mikemike3662@gmail.com
+    </center>
+        
+    </h1>
+    <br>
+        <div class="tab">
+            <div id="home">
+                <a href="http://localhost/MPTS/STUDENTS/STdb/home.php">
+                    HOME.
+                </a>
+            </div>
+            <br>
+            <div>
+            <button onclick="darkMode()">Dark-mode</button>
+            </div> 
+            <script>
+            function darkMode() {
+            var element = document.body;
+            element.classList.toggle("dark-mode");
+                }
+            </script>
+            <br>
+            <div id="teachers"><a href="http://localhost/MPTS/STUDENTS/STdb/teachers.php">
+              TEACHERS
+            </a>
+            </div>
+            <br>
+            <div id="students"><a href="http://localhost/MPTS/STUDENTS/STdb/students.php">
+                            STUDENTS
+                </a>
+             </div>
+             <br>
+             <div id="library"><a href="http://localhost/MPTS/STUDENTS/STdb/elibrary.html">
+                            E~LIBRARY
+                </a>
+            </div>
+            </div>
+            <br>
+    <div class="myTab1">
+        <!--the search button-->
+
+        <input type="text" placeholder="type here" name="search">
+        <button type="submit" class="searchButton" >
+            <i class="fa fa-search">
+                search
+            </i>
+        </button>
+    </div>
+    </body>
+    </html>

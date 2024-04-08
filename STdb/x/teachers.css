@@ -1,0 +1,123 @@
+body{
+    width: 100%;
+    position: fixed;
+    color: #000000;
+    background-image: url("schoolbackground.jpg");
+    background-size: cover;
+    align-items: center;
+}
+#teachers {
+    font-weight: bold;
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+
+}
+#library {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    
+}
+#students {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+    
+}
+#heading{
+  width: 100%;
+  background-color: brown;
+  font-size: 34px;
+  font-weight: bold;
+  padding: 5px 5px 5px 5px;
+
+}
+#home {
+    background-color: white;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px 10px 10px 20px;
+    font-weight: bold;
+}
+.dark-mode {
+        background-color: black;
+        color: white;
+}
+.tab {
+    padding: 20px 10px 10px 10px;
+  overflow: hidden;
+  border: 2px solid #ccc;
+  background-color: #6f7a73;
+  float: left;
+  width: 400px;
+  height: 600px;
+  margin-right: 5%;
+}
+.welcome{
+    font-size: 50px;
+    font-weight: bold;
+    font-style: italic;
+    color: #000;
+
+}
+#input{
+    top: 50px;
+    left: 30px;
+}
+#uplds{
+    font-weight: bold;
+    background-color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+}
+#label{
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#sbmt1{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+#sbmt{
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+#uploadAssignment{
+    font-weight: bold;
+    background-color: #f505c5;
+}
+.studentsupload{
+    color: #000000;
+    font-weight: bold;
+}
+.uploadnotes{
+    font-weight: bold;
+    background-color: #f505c5;
+}
+.myTab1{
+    overflow: hidden;
+    width: 600px;
+    height: 600px;
+    background-color: #a52a2a;
+    border: 2px solid #f505c5;
+}
+

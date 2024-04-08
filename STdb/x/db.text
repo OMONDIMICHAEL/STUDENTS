@@ -1,0 +1,30 @@
+               Database name schooldb
+
+
+                 table school
+ `id`, `username`, `password`
+
+
+                  table students
+ `id`, `username`, `password`
+
+
+                table studentsassignmentupload
+ `id`, `studentFile`
+
+
+               table teachers
+ `id`, `username`, `password`
+
+
+               table teachersassignmentupload
+ `id`, `teacherFile`
+
+
+
+
+
+
+
+
+

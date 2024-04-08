@@ -1,0 +1,73 @@
+/*<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>
+<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>*/
+.topbarContainer{
+    background-color: rgb(137, 137, 185);
+    display: flex;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    top: 0;
+    border-radius: 5px 5px 0px 0px;
+  }
+  
+  .topbarLeft{
+    display: flex;
+      align-items: center;
+    padding: 10px 10px 10px 10px;
+    display: none;
+    z-index: 5;
+  }
+  .schoolLogo{
+    height: 40px;
+    width: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 20px;
+    object-fit: cover;
+  }
+  a{
+    background-color: rgb(144, 151, 158);
+    color: blue;
+    padding: 6px 6px 6px 6px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration-line: none;
+  }
+  body{
+      align-items: center;
+    background-color: rgb(175, 205, 231);
+  }
+  .bodyContainer{
+      align-items: center;
+    background-color: rgb(127, 137, 146);
+    padding: 10px 10px 10px 10px;
+  }
+  .libContainer{
+    padding: 10px 10px 10px 10px;
+  }
+  #libContent{
+    padding: 10px 10px 10px 10px;
+  }
+  .searchBox{
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  .searchButton{
+    padding: 6px 6px 6px 6px;
+    border-radius: 5px;
+    font-weight: bold;
+    background-color: rgb(26, 26, 223);
+    color: white;
+    cursor: pointer;
+  }
+  .likeIcon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+  .userData{
+  background-color: whitesmoke;
+  font-weight: bolder;
+  padding: 10px 10px 10px 10px;
+  }

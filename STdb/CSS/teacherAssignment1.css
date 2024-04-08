@@ -1,0 +1,114 @@
+/*<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>
+<<<<<<<<<<<*mikemike3662@gmail.com*>>>>>>>>>>>>*/
+.topbarContainer{
+  background-color: rgb(137, 137, 185);
+  display: flex;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  top: 0;
+  border-radius: 5px 5px 0px 0px;
+  font-weight: bold;
+  padding: 5px;
+}
+.topbarLeft{
+  padding: 5px;
+}
+  a.topBarLink{
+  background-color: rgb(137, 137, 185);
+  color: blue;
+  padding: 3px;
+  border-radius: 8px;
+  font-weight: bold;
+  text-decoration-line: none;
+}
+  .schoolLogo{
+    height: 30px;
+    width: 30px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+  .inContainer{
+    width: 100%;
+    padding: 5px;
+  }
+  a{
+/*    background-color: rgb(144, 151, 158);*/
+    background-color: rgb(175, 205, 231);
+    color: blue;
+    padding: 3px;
+    border-radius: 8px;
+    font-weight: bold;
+    text-decoration-line: none;
+  }
+  body{
+    font-size: 24px;
+    align-items: center;
+    background-color: rgb(175, 205, 231);
+    margin: 0;
+    overflow-x: hidden;
+  }
+  .bodyContainer{
+    align-items: center;
+    background-color: rgb(127, 137, 146);
+    padding: 5px;
+  }
+  #myTeacherfile{
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: rgb(144, 151, 158);
+  }
+  #sbmt{
+    font-weight: bold;
+    color: white;
+    background-color: rgb(39, 70, 211);
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+    border-radius: 7px;
+  }
+  #descriptionn{
+    padding: 5px;
+    border-radius: 15px;
+    font-weight: bold;
+  }
+  .likeIcon{
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+.userData{
+  background-color: whitesmoke;
+  font-weight: bolder;
+  padding: 5px;
+}
+
+.inContainer{
+  padding: 5px;
+  width: 100%;
+}
+.footerDiv{
+  background-color: white;
+  padding: 5px;
+}
+.tsapLogo{
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+  border-radius: 20px;
+  object-fit: cover;
+}
+.tsapLogoDiv{
+background-color: black;
+padding: 5px;
+border-radius: 20px;
+-webkit-border-radius: 20px;
+-moz-border-radius: 20px;
+-ms-border-radius: 20px;
+-o-border-radius: 20px;
+}
+.footerDiv{
+  background-color: white;
+  padding: 5px;
+}
