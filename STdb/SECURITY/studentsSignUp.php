@@ -10,44 +10,63 @@
 </title>
 <link rel="icon" href="../IMAGES/schoolLogo.jpg" type="image/x-icon">
 <link rel="stylesheet" href="../CSS/schoolLogIn.css"> 
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
+<script src="https://kit.fontawesome.com/7ca9572120.js" crossorigin="anonymous"></script>
 </head>
-<body id = "body">
+<body>
     <header>
         <article>
-            <section><h1>STUDENT SIGNUP.</h1></section>
+            <section></section>
         </article>
     </header>
     <main>
         <article>
-            <section>
-                <form method="post">
-                    <label for="username">Username.</label><br>
-                    <input type="text" name="username" placeholder="jane doe" id="username" required><br><br>
-                    <label for="email">Email Address.</label><br>
-                    <input type="email" name="email" placeholder="janedoe@gmail.com"  id="email" required><br><br>
-                    <label for="courseName">Course Name.</label><br>
-                    <input type="text" name="courseName" placeholder="CPA"  id="courseName" required><br><br>
-                    <label for="pass">Password.</label><br>
-                    <input type="password" name="password"  id="pass" required><br><br>
-                    <input type="checkbox" id = "check" onclick="myFunction()"><label for="check" id = "txt">Show Password</label><br><br>
-                    <input type="submit" value ="Sign Up." id="submit">
+            <div class="wrapper">
+                <div class="logo">
+                    <img src="https://img.freepik.com/free-photo/e-learing-distance-education-icons-interface_53876-124201.jpg?t=st=1735833839~exp=1735837439~hmac=0d677f2a72178162999088faecc4c3d1f365ff0ab412a4737867133ebb7377e6&w=1380" alt="">
+                </div>
+                <div class="text-center mt-4 name">
+                    Sign Up.
+                </div>
+                <form class="p-3 mt-3" method="post">
+                    <div class="form-field d-flex align-items-center">
+                        <i class="fa-solid fa-user"></i>
+                        <input type="text" name="username" id="userName" placeholder="Username">
+                    </div>
+                    <div class="form-field d-flex align-items-center">
+                        <i class="fa-solid fa-envelope"></i>
+                        <input type="email" name="email" id="userName" placeholder="Email">
+                    </div>
+                    <div class="form-field d-flex align-items-center">
+                        <i class="fa-solid fa-pen"></i>
+                        <input type="text" name="courseName" id="userName" placeholder="Course Name">
+                    </div>
+                    <div class="form-field d-flex align-items-center">
+                        <i class="fa-solid fa-key"></i>
+                        <input type="password" name="password" id="pwd" placeholder="Password">
+                    </div>
+                    <input type="checkbox" id = "check" onclick="myFunction()"><label for="check" id = "txt">Show Password</label>
+                    <input type="submit" class="btn mt-3" value="Sign Up.">
                 </form>
-            </section>
+                <div class="text-center fs-6">
+                    <span> I have an account.</span> <a href="studentsLogIn.php">Sign In.</a>
+                </div>
+            </div>
         </article>
     </main>
     <footer>
         <article>
             <section>
-                <button type="button">
-                    <a href="studentsLogIn.php">Click to Log in.</a>
-                </button>
             </section>
         </article>
     </footer>
     <script>
         //the show password function
     function myFunction() {
-        var x = document.getElementById("pass");
+        var x = document.getElementById("pwd");
             if (x.type === "password") {
                 //if the variable x is in the form of a password then change it to form of text
                x.type = "text"

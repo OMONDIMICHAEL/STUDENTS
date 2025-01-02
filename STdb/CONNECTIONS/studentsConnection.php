@@ -13,7 +13,7 @@
 //     $con = mysqli_connect($dbhost,$dbuser,$dbpass,$dbname);
 //     # code...
 // }
-$con = mysqli_connect ('localhost','root','','schooldb1');
+$con = mysqli_connect ('localhost','root','root254.','schooldb1');
 if (mysqli_connect_errno()) {
     die ('failed to connect: ' . mysqli_connect_error());
 }
